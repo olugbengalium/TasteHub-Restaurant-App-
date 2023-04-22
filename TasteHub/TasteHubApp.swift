@@ -11,7 +11,7 @@ import SwiftUI
 struct TasteHubApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           TabspageView()
         }
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65B4B18B29F472B600033973 /* Test_TasteHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B4B18A29F472B600033973 /* Test_TasteHub.swift */; };
 		65C8592929F2348000F2F009 /* TasteHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8592829F2348000F2F009 /* TasteHubApp.swift */; };
 		65C8592B29F2348000F2F009 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8592A29F2348000F2F009 /* ContentView.swift */; };
 		65C8592D29F2348200F2F009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C8592C29F2348200F2F009 /* Assets.xcassets */; };
@@ -14,6 +15,21 @@
 		65C8593A29F2348200F2F009 /* TasteHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8593929F2348200F2F009 /* TasteHubTests.swift */; };
 		65C8594429F2348200F2F009 /* TasteHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8594329F2348200F2F009 /* TasteHubUITests.swift */; };
 		65C8594629F2348200F2F009 /* TasteHubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8594529F2348200F2F009 /* TasteHubUITestsLaunchTests.swift */; };
+		65C8595529F2351600F2F009 /* StoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8595429F2351600F2F009 /* StoreData.swift */; };
+		65C8595729F2353100F2F009 /* StoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8595629F2353100F2F009 /* StoreModel.swift */; };
+		65C8595929F235AC00F2F009 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8595829F235AC00F2F009 /* ProfileView.swift */; };
+		65C8595B29F235E900F2F009 /* UserUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8595A29F235E900F2F009 /* UserUpdateView.swift */; };
+		65C8595D29F2361C00F2F009 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8595C29F2361C00F2F009 /* HomeView.swift */; };
+		65C8595F29F2367E00F2F009 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8595E29F2367E00F2F009 /* StoreView.swift */; };
+		65C8596129F236B700F2F009 /* CartHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8596029F236B700F2F009 /* CartHomeView.swift */; };
+		65C8596729F23D5700F2F009 /* NewPriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8596629F23D5700F2F009 /* NewPriceView.swift */; };
+		65C8596929F23D8800F2F009 /* User_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8596829F23D8800F2F009 /* User_Model.swift */; };
+		65C8596B29F23D9E00F2F009 /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8596A29F23D9E00F2F009 /* CartModel.swift */; };
+		65C8596D29F23E2100F2F009 /* UpdateSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8596C29F23E2100F2F009 /* UpdateSettings.swift */; };
+		65C8596F29F23F1200F2F009 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8596E29F23F1200F2F009 /* Extension.swift */; };
+		65C8597129F23F7300F2F009 /* TabsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8597029F23F7300F2F009 /* TabsPageView.swift */; };
+		65C8597329F23FFF00F2F009 /* FaavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8597229F23FFF00F2F009 /* FaavoriteView.swift */; };
+		65C8597929F2449400F2F009 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8597829F2449400F2F009 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65B4B18A29F472B600033973 /* Test_TasteHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_TasteHub.swift; sourceTree = "<group>"; };
 		65C8592529F2348000F2F009 /* TasteHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasteHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C8592829F2348000F2F009 /* TasteHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteHubApp.swift; sourceTree = "<group>"; };
 		65C8592A29F2348000F2F009 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +61,21 @@
 		65C8593F29F2348200F2F009 /* TasteHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasteHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C8594329F2348200F2F009 /* TasteHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteHubUITests.swift; sourceTree = "<group>"; };
 		65C8594529F2348200F2F009 /* TasteHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65C8595429F2351600F2F009 /* StoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreData.swift; sourceTree = "<group>"; };
+		65C8595629F2353100F2F009 /* StoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreModel.swift; sourceTree = "<group>"; };
+		65C8595829F235AC00F2F009 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		65C8595A29F235E900F2F009 /* UserUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUpdateView.swift; sourceTree = "<group>"; };
+		65C8595C29F2361C00F2F009 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		65C8595E29F2367E00F2F009 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		65C8596029F236B700F2F009 /* CartHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartHomeView.swift; sourceTree = "<group>"; };
+		65C8596629F23D5700F2F009 /* NewPriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPriceView.swift; sourceTree = "<group>"; };
+		65C8596829F23D8800F2F009 /* User_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_Model.swift; sourceTree = "<group>"; };
+		65C8596A29F23D9E00F2F009 /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
+		65C8596C29F23E2100F2F009 /* UpdateSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateSettings.swift; sourceTree = "<group>"; };
+		65C8596E29F23F1200F2F009 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		65C8597029F23F7300F2F009 /* TabsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsPageView.swift; sourceTree = "<group>"; };
+		65C8597229F23FFF00F2F009 /* FaavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaavoriteView.swift; sourceTree = "<group>"; };
+		65C8597829F2449400F2F009 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +106,10 @@
 		65C8591C29F2348000F2F009 = {
 			isa = PBXGroup;
 			children = (
+				65C8597729F2434600F2F009 /* Components */,
+				65C8597629F2432D00F2F009 /* View-Model */,
+				65C8597529F2432200F2F009 /* Views */,
+				65C8597429F2431700F2F009 /* Model */,
 				65C8592729F2348000F2F009 /* TasteHub */,
 				65C8593829F2348200F2F009 /* TasteHubTests */,
 				65C8594229F2348200F2F009 /* TasteHubUITests */,
@@ -114,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				65C8593929F2348200F2F009 /* TasteHubTests.swift */,
+				65B4B18A29F472B600033973 /* Test_TasteHub.swift */,
 			);
 			path = TasteHubTests;
 			sourceTree = "<group>";
@@ -125,6 +162,49 @@
 				65C8594529F2348200F2F009 /* TasteHubUITestsLaunchTests.swift */,
 			);
 			path = TasteHubUITests;
+			sourceTree = "<group>";
+		};
+		65C8597429F2431700F2F009 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65C8596A29F23D9E00F2F009 /* CartModel.swift */,
+				65C8596E29F23F1200F2F009 /* Extension.swift */,
+				65C8596829F23D8800F2F009 /* User_Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65C8597529F2432200F2F009 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65C8597029F23F7300F2F009 /* TabsPageView.swift */,
+				65C8596629F23D5700F2F009 /* NewPriceView.swift */,
+				65C8597229F23FFF00F2F009 /* FaavoriteView.swift */,
+				65C8597829F2449400F2F009 /* SettingsView.swift */,
+				65C8596029F236B700F2F009 /* CartHomeView.swift */,
+				65C8595C29F2361C00F2F009 /* HomeView.swift */,
+				65C8595A29F235E900F2F009 /* UserUpdateView.swift */,
+				65C8595829F235AC00F2F009 /* ProfileView.swift */,
+				65C8595E29F2367E00F2F009 /* StoreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		65C8597629F2432D00F2F009 /* View-Model */ = {
+			isa = PBXGroup;
+			children = (
+				65C8595429F2351600F2F009 /* StoreData.swift */,
+				65C8595629F2353100F2F009 /* StoreModel.swift */,
+				65C8596C29F23E2100F2F009 /* UpdateSettings.swift */,
+			);
+			path = "View-Model";
+			sourceTree = "<group>";
+		};
+		65C8597729F2434600F2F009 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +337,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C8596F29F23F1200F2F009 /* Extension.swift in Sources */,
+				65C8595B29F235E900F2F009 /* UserUpdateView.swift in Sources */,
+				65C8597929F2449400F2F009 /* SettingsView.swift in Sources */,
+				65C8595D29F2361C00F2F009 /* HomeView.swift in Sources */,
+				65C8595F29F2367E00F2F009 /* StoreView.swift in Sources */,
+				65C8597329F23FFF00F2F009 /* FaavoriteView.swift in Sources */,
 				65C8592B29F2348000F2F009 /* ContentView.swift in Sources */,
+				65C8596929F23D8800F2F009 /* User_Model.swift in Sources */,
+				65C8595729F2353100F2F009 /* StoreModel.swift in Sources */,
+				65C8595929F235AC00F2F009 /* ProfileView.swift in Sources */,
+				65C8595529F2351600F2F009 /* StoreData.swift in Sources */,
+				65C8596B29F23D9E00F2F009 /* CartModel.swift in Sources */,
 				65C8592929F2348000F2F009 /* TasteHubApp.swift in Sources */,
+				65C8596D29F23E2100F2F009 /* UpdateSettings.swift in Sources */,
+				65C8596729F23D5700F2F009 /* NewPriceView.swift in Sources */,
+				65C8596129F236B700F2F009 /* CartHomeView.swift in Sources */,
+				65C8597129F23F7300F2F009 /* TabsPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65C8593A29F2348200F2F009 /* TasteHubTests.swift in Sources */,
+				65B4B18B29F472B600033973 /* Test_TasteHub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
